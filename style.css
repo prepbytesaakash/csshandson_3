@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Elements */
+body {
+  background-color: grey;
+}
+hr {
+  border: 2px double #fff;
+  border-left: none;
+  border-right: none;
+
+  height: 10px;
+  width: 80%;
+  margin: 0 auto 40px auto;
+}
+img {
+  margin: 30px 30px 30px 30px;
+  width:80%;
+  height:70%;
+  
+}
+label {
+  display: inline-block;
+  margin: 8px 30px 18px 30px;
+  font-size: 22px;
+  color: blueviolet;
+  text-align: center;
+  font-size: 16px;
+}
+input[type="text"] {
+  height: 24px;
+  margin: 0px 72px 12px 72px;
+}
+button[type="submit"] {
+  margin: 0px 50px;
+  padding: 1px 10px;
+  width: 100px;
+  height: 32px;
+  border-radius: 8px; /* after giving border radius button is not working */
+  background-color: orangered;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+/* header part css */
+.top_container {
+  margin-bottom: 40px;
+}
+.header {
+  border: 8px solid red;
+  background-color: #fff;
+  box-shadow: 10px 10px darkmagenta;
+  width: 30%;
+  height: 60px;
+  padding: 30px;
+  margin: 8px auto;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 30px;
+  top: 2%;
+  
+}
+.header_text {
+  width: 220px;
+  
+  font-weight: bold;
+  margin: 0px auto;
+  color:#9e1943;
+  text-shadow:2px 4px 3px rgba(0,0,0,0.3);
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+
+}
+
+/* middle container */
+.middle_container {
+  border: 8px solid green;
+  margin: 8px 32px 200px 32px;
+  font-weight: bold;
+  text-shadow:2px 2px 2px red;
+}
+.flex_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  font-weight: bold;
+  text-shadow:1px 1px red; 
+}
+.item {
+  width: 250px;
+  height:250px;
+  border: 8px solid red;
+  border-radius: 12px;
+  box-shadow: 10px 10px darkmagenta;
+  background-color: #fff;
+  
+  
+}
+.item p {
+  font-size: 18px;
+  color: #1b1233;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 16px 0px 0px 18px;
+  text-shadow:1px 1px red; 
+  
+}
+
+.sticky {
+  position: fixed;
+  bottom: 80px;
+  top: 560px;
+  left: 450px;
+}
+.sticky_content {
+  height: 140px;
+  width: 580px;
+  border-radius: 15px;
+  background-color: lawngreen;
+}
+.sticky_content h3 {
+  display: inline-block;
+  font-size: 28px;
+  width: 280px;
+  height: 120px;
+  line-height: 1.5;
+  color: rgb(172, 14, 58);
+  margin: 24px 0px 0px 60px;
+}
+.sticky_content p {
+  display: inline-block;
+  font-size: 22px;
+
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  color: rgb(172, 14, 58);
+
+}
+.rate_box { 
+  text-shadow:2px 4px 3px rgba(0,0,0,0.3);
+  justify-content: center;
+  text-align: center;
+  color: #1b1233;
+
+}
+.rate_box h2 {
+  font-size: 16px;
+  margin: 16px 16px 16px 16px;
+  text-shadow:2px 4px 3px rgba(0,0,0,0.3);
+  justify-content: center;
+  text-align: center;
+  color: #1b1233;
+ 
+}
+
+
+
+
+
+
+
+/* Lower container */
+
+.lower_container {
+  border: 8px solid purple;
+  width: 56%;
+  height: 620px;
+  margin: 0px auto 80px auto;
+  background-color: green;
+}
+.flex_block1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.lower_container hr {
+  border: 2px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.flex_block1 h1 {
+  flex-basis: 800px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.box1 h3,
+.box2 h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.box1 p,
+.box2 p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 12px;
+}
+
+.box1,
+.box2 {
+  background-color: yellow;
+  display: inline-block;
+  width: 412px;
+  height: 300px;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+}
+.box2 {
+  margin-left: 10px;
+}
+
+.block2 {
+  background-color: yellow;
+
+  width: 845px;
+  height: 224px;
+  border: 2px solid grey;
+  margin-left: 4px;
+}
+
+.block2 p {
+  font-size: 18px;
+  line-height: 2;
+  margin: 0 12px;
+}
+
+.block2 h3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+  
+
+
